@@ -1,8 +1,8 @@
-*{
-    margin: 0;
-	padding: 0;
-	border: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -14,22 +14,23 @@ body {
   font-size: 1.4rem; /* default font-size for document */
   line-height: 1.5; /* a nice line-height */
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-a{
-    color: #000;
-    text-decoration: none!important;
+a {
+  color: #000;
+  text-decoration: none !important;
 }
-a:hover,a:active{
+a:hover,
+a:active {
   text-decoration: none;
   color: currentColor;
 }
-hr{
-    margin: 1rem 0;
-    border: .8px solid #d1d3e2;
+hr {
+  margin: 1rem 0;
+  border: 0.8px solid #d1d3e2;
 }
-p{
+p {
   margin: 0;
 }
 /* for everything else, rem = px/10 */
